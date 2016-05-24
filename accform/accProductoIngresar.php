@@ -1,5 +1,6 @@
 <?php
 include("../librerias.php");
+session_start();
 $oPro=new Producto();
 $oAux=new Producto();
 $oAux->Nombre()=$_POST["nombre"];
