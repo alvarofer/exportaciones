@@ -14,6 +14,9 @@
 include('menu.php');
 ?>
 AGREGAR
+<?php
+include('/form/formingresar.php');
+?>
 </body>
 </html>
 
